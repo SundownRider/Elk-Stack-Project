@@ -28,9 +28,9 @@ Load balancing ensures that the application will be highly accessible, in additi
 Load balancers protect the Availability aspect of the CIA triad by routing traffic equally among each web server.   
 One advantage of implementing a Jump Box is the ability to deploy ansible and effeciently manage web servers.
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes in the server logs and system metrics.
-- _TODO: What does Filebeat watch for?_  
-Metricbeat records metrics from the system and services running on a server.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes in the server logs and system metrics.  
+Filebeat: Filebeat gathers system logs and sends them to a specified output (Logstash or Elasticsearch).        
+Metricbeat: Metricbeat periodically records system metrics and statistics and sends them to a specified output (Logstash or Elasticsearch).
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
