@@ -51,15 +51,20 @@ Only the Elk-Server machine can accept connections from the Internet. Access to 
 74.192.25.186
 
 Machines within the network can only be accessed via Secure Shell (SSH).
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
+I allowed the Ansible container on the Jump-Box machine to access the Elk-Server machine on the back-end.  
+
+Jump-Box IP: 10.0.0.4 (Internal)  
+
+Ansible Container IP: 172.17.0.2
 
 A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+|Jump Box  | No                  | 10.0.0.1 10.0.0.2    |
+|Web-1     | No                  |                      |
+|Web-2     | No                  |                      |
+|Elk-Server| Yes                 |                      |
 
 ### Elk Configuration
 
