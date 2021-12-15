@@ -24,11 +24,11 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly _____, in addition to restricting _____ to the network.  
+Load balancing ensures that the application will be highly accessible, in addition to preventing downtime to the network.  
 Load balancers protect the Availability aspect of the CIA triad by routing traffic equally among each web server.   
 One advantage of implementing a Jump Box is the ability to deploy ansible and effeciently manage web servers.
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system metrics.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes in the server logs and system metrics.
 - _TODO: What does Filebeat watch for?_  
 Metricbeat records metrics from the system and services running on a server.
 
@@ -46,10 +46,11 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 The machines on the internal network are not exposed to the public Internet. 
 
-Only the _____ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: Add whitelisted IP addresses_
+Only the Elk-Server machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 
-Machines within the network can only be accessed by _____.
+74.192.25.186
+
+Machines within the network can only be accessed via Secure Shell (SSH).
 - _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
 
 A summary of the access policies in place can be found in the table below.
@@ -63,7 +64,8 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_
+
+One significant advantage of automating the configuration with Ansible was the simplicity of the installation. I was able to minimize the risk of misconfiguration through the use of Ansible.
 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
