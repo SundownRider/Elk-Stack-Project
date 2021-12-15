@@ -29,7 +29,7 @@ Load balancers protect the Availability aspect of the CIA triad by routing traff
 One advantage of implementing a Jump Box is the ability to deploy ansible and effeciently manage web servers.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system metrics.
-- _TODO: What does Filebeat watch for?_
+- _TODO: What does Filebeat watch for?_  
 Metricbeat records metrics from the system and services running on a server.
 
 The configuration details of each machine may be found below.
