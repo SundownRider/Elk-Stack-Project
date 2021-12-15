@@ -8,7 +8,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
-![Filebeat Configuration File](https://github.com/SundownRider/Elk-Stack-Project/blob/main/Ansible/filebeat-configuration.yml)
+![Filebeat Configuration File](https://github.com/SundownRider/Elk-Stack-Project/blob/main/Ansible/filebeat-configuration.yml)  
 ![Filebeat Playbook File](https://github.com/SundownRider/Elk-Stack-Project/blob/main/Ansible/filebeat-playbook.yml)
 
 This document contains the following details:
