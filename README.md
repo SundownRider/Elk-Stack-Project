@@ -88,8 +88,9 @@ Web-1: 10.0.0.5
 Web-2: 10.0.0.6
 
 We have installed the following Beats on these machines:  
-Filebeat  
-Metricbeat
+
+1. Filebeat    
+2. Metricbeat
 
 These Beats allow us to collect the following information from each machine:
 - _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
