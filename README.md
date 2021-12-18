@@ -66,7 +66,7 @@ A summary of the access policies in place can be found in the table below.
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
+Ansible was used to automate configuration of the ELK machine.
 
 One significant advantage of automating the configuration with Ansible was the simplicity of the installation. I was able to minimize the risk of misconfiguration through the use of Ansible.
 
@@ -102,13 +102,12 @@ Metricbeat collects system metrics which can be used to identify performance iss
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the _____ file to _____.
-- Update the _____ file to include...
+- Copy the ![install-elk.yml](https://github.com/SundownRider/Elk-Stack-Project/blob/main/Ansible/install-elk.yml) file to the /etc/ansible directory.
+- Update the file to include...
 - Run the playbook, and navigate to http://[Elk-Server External IP]:5601/app/kibana to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- _Which URL do you navigate to in order to check that the ELK server is running?
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
+
+
+Note: An example installation writeup can be found ![here](https://github.com/SundownRider/Elk-Stack-Project/blob/main/WriteUp.txt)
