@@ -110,4 +110,4 @@ SSH into the control node and follow the steps below:
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 
 
-Note: An example installation writeup can be found ![here](https://github.com/SundownRider/Elk-Stack-Project/blob/main/WriteUp.txt)
+Note: An example installation write up can be found ![here](https://github.com/SundownRider/Elk-Stack-Project/blob/main/WriteUp.txt)
