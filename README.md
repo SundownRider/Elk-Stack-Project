@@ -103,8 +103,10 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 SSH into the control node and follow the steps below:
 - Copy the ![install-elk.yml](https://github.com/SundownRider/Elk-Stack-Project/blob/main/Ansible/install-elk.yml) file to the /etc/ansible directory.
-- Update the /etc/ansible/hosts file to include the IP addresses of the webservers that you would like to install ELK on and the IP address of the ELK virtual machine  
+- Update the /etc/ansible/hosts file to include the IP addresses of the webservers that you would like to install ELK on and the IP address of the ELK virtual machine 
+ 
 ![Ansible Hosts](https://github.com/SundownRider/Elk-Stack-Project/blob/main/Images/Hosts.png)  
+
 - Run the playbook, and navigate to http://[Elk-Server External IP]:5601/app/kibana to check that the installation worked as expected.
 
 Note: An example installation write up can be found ![here](https://github.com/SundownRider/Elk-Stack-Project/blob/main/WriteUp.txt)
